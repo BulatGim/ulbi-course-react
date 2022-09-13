@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    //Подсвечивает места где не указан тип
+    "noImplicitAny": true,
+    "module": "ESNext", //ESNext, es6, commonjs
+    //для поддержки большинства браузеров
+    "target": "es5",
+    "jsx": "react",
+    //разрешать js
+    "allowJs": true,
+    "moduleResolution": "node",
+    //from import * as Moment from "Moment" to import Moment from "Moment
+    "esModuleInterop": true,
+    //Если какие-то библиотеки не используют дефолтных экспортов этот флаг позволяет это исправить
+    "allowSyntheticDefaultImports": true
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}
