@@ -6,7 +6,7 @@
     "module": "ESNext", //ESNext, es6, commonjs
     //для поддержки большинства браузеров
     "target": "es5",
-    "jsx": "react",
+    "jsx": "react-jsx",
     //разрешать js
     "allowJs": true,
     "moduleResolution": "node",
