@@ -1,1 +1,0 @@
-!function(){"use strict";console.log("someFn works"),document.body.innerHTML="<div>Hello webpack world</div>"}();

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkulbi_course_react=self.webpackChunkulbi_course_react||[]).push([[510],{510:function(e,u,c){c.r(u);var r=c(893);u.default=function(){return(0,r.jsx)("div",{children:"Main page"},void 0)}}}]);
