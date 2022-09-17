@@ -10,6 +10,10 @@
     //разрешать js
     "allowJs": true,
     "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"]
+    },
     //from import * as Moment from "Moment" to import Moment from "Moment
     "esModuleInterop": true,
     //Если какие-то библиотеки не используют дефолтных экспортов этот флаг позволяет это исправить
