@@ -2,3 +2,4 @@
 build
 .idea
 /loki
+/storybook-static
