@@ -17,7 +17,7 @@ export const AppLink:FC<IAppLinkProps> = (props) => {
     const {
         to, className, children, theme = AppLinkTheme.PRIMARY, ...otherProps
     } = props;
-
+    console.log(20000 * ((1 - 0.18) ** 2));
     return (
         <Link
             to={to}
