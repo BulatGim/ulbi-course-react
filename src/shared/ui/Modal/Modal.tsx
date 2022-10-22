@@ -30,7 +30,6 @@ export const Modal:FC<IModalProps> = (props:IModalProps) => {
     const mods: Record<string, boolean> = {
         [styles.opened]: isOpen,
         [styles.isClosing]: isClosing,
-        [styles[theme]]: true,
     };
 
     const closeHandler = useCallback(() => {

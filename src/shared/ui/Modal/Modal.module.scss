@@ -28,11 +28,6 @@
   max-width: 60%;
 }
 
-.Modal.dark {
-  --bg-color: #12126e;
-  --primary-color: #02a102;
-}
-
 .opened {
   z-index: var(--modal-opened-z-index);
   opacity: 1;
