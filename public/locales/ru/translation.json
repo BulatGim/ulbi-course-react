@@ -9,5 +9,7 @@
   "Переключить": "Переключить",
   "Короткий язык": "ru",
   "toggle": "toggle",
-  "Войти": "Войти"
+  "Войти": "Войти",
+  "increment": "increment",
+  "decrement": "decrement"
 }
