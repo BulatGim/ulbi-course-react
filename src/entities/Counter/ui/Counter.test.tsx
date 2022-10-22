@@ -1,7 +1,7 @@
 import { fireEvent, render, screen } from '@testing-library/react';
 import { RenderWithTranslation } from 'shared/lib/tests/renderWithTranslation/renderWithTranslation';
 import { ComponentRender } from 'shared/lib/tests/componentRender/componentRender';
-import { Counter } from './Counter';
+import { Counter } from 'entities/Counter';
 
 describe('Counter', () => {
     test('first render', () => {
