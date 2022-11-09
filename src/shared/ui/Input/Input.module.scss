@@ -1,23 +1,24 @@
-.inputWrapper{
+.inputWrapper {
   display: flex;
 }
 
-.input{
+.input {
   background: transparent;
   border: none;
   outline: none;
   width: 100%;
   caret-color: transparent;
-  &:focus{
+
+  &:focus {
     outline: none;
   }
 }
 
-.placeholder{
+.placeholder {
   margin-right: 10px;
 }
 
-.caret{
+.caret {
   height: 3px;
   width: 9px;
   background: var(--primary-color);
@@ -25,22 +26,23 @@
   left: 0;
   position: absolute;
   animation: blink 0.7s infinite forwards;
-
 }
 
-.caretWrapper{
+.caretWrapper {
   flex-grow: 1;
   position: relative;
 }
 
 @keyframes blink {
-  0%{
+  0% {
     opacity: 0;
   }
-  50%{
+
+  50% {
     opacity: 0.01;
   }
-  100%{
+
+  100% {
     opacity: 1;
   }
 }
