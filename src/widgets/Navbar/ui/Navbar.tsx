@@ -3,6 +3,7 @@ import { classNames } from 'shared/lib/classNames/classNames';
 import { useTranslation } from 'react-i18next';
 import { Modal } from 'shared/ui/Modal/Modal';
 import { Button, ButtonTheme } from 'shared/ui/Button/Button';
+import { LoginModal } from 'features/AuthByUsername';
 import styles from './Navbar.module.scss';
 
 interface INavbarProps {
@@ -25,10 +26,10 @@ export const Navbar: FC<INavbarProps> = ({ className }) => {
                 >
                     {t('Войти')}
                 </Button>
-                <Modal isOpen={isAuthModal} onClose={onToggleModal}>
-                    {/* eslint-disable-next-line i18next/no-literal-string,react/no-unescaped-entities,max-len */}
-                    <p>do'sfmb s;fkbn s;obnsf s;obnsm;d a'dmvs;akn  a;dkvenskni sz.brlnz.dlj sz.urbvjz,  .zrsbvz, rvlzsbnr.ln </p>
-                </Modal>
+                <LoginModal
+                    isOpen={isAuthModal}
+                    onClose={onToggleModal}
+                />
             </div>
         </div>
     );

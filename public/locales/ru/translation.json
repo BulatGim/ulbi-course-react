@@ -11,5 +11,8 @@
   "toggle": "toggle",
   "Войти": "Войти",
   "increment": "increment",
-  "decrement": "decrement"
+  "decrement": "decrement",
+  "Отправить": "Отправить",
+  "Введите username": "Введите username",
+  "Введите пароль": "Введите пароль"
 }
